@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstring>
-
 #define IS_LETTERS(str) (std::strspn(str, "abcdefghijklmnopqrstuvwxyz") == std::strlen(str))
 #define IS_DIGITS(str) (std::strspn(str, "0123456789") == std::strlen(str))
 
